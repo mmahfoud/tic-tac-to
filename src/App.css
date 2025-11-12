@@ -1,0 +1,20 @@
+.cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: light-dark(white, black);
+  outline: 0;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: light-dark(black, white);
+  border-left: 1px solid light-dark(black, white);
+  border-top: 1px solid light-dark(black, white);
+}
+.cell-right {
+  border-right: 1px solid light-dark(black, white);
+}
+.cell-bottom {
+  border-bottom: 1px solid light-dark(black, white);
+}
